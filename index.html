@@ -45,16 +45,15 @@
 <script>
     // Base de dados integrada (extraída do seu CSV)
     const baseDados = [
-        {selb: "0", divisao: "LOCALIZA", agencia: "AAIMP", modelo: "0", serie: "70189323067N8", endereco: "0 - 0"},
         {selb: "3Y97", divisao: "SEMINOVOS", agencia: "LJOPI", modelo: "MX 632", serie: "7020405204HZH", endereco: "AV. DR.OTAVIANO PEREEIRA MENDES, 634, Liberdade, ITU/SP - ITU"},
         {selb: "3Y62", divisao: "SEMINOVOS", agencia: "LJOPI", modelo: "MX 632", serie: "7020405204HYW", endereco: "AV. DR.OTAVIANO PEREEIRA MENDES, 634, Liberdade, ITU/SP - ITU"},
         {selb: "04VU", divisao: "LOCALIZA", agencia: "RDMAB", modelo: "MX611", serie: "701631HH015XK", endereco: "Rua João Pessoa, qd-77 lt-14 Belo Horizonte Marabá/PA 68503-200""},
         {selb: "IBT3", divisao: "LOCALIZA", agencia: "BSI02", modelo: "MX522", serie: "7017817100YTH", endereco: "SCLS 402 BLOCO B LOJA 30 - BRASILIA"},
         {selb: "05UN", divisao: "LOCALIZA", agencia: "RDMAB", modelo: "MX 611", serie: "701667HH08LD8", endereco: "RUA JOAO PESSOA QUADRA 07 LOTE 01/05 - RIO VERDE"},
-        {selb: "06GN", divisao: "Localiza", agencia: "ACZGR", modelo: "MX622", serie: "7018949308CZV", endereco: "AV BENJAMIN HARRIS HUNNICUTT nº S N - PORTAL DOS GRAMADOS   GUARULHOS   SP"}
+        {selb: "06GN", divisao: "Localiza", agencia: "ACZGR", modelo: "MX622", serie: "7018949308CZV", endereco: "AV BENJAMIN HARRIS HUNNICUTT nº S N - PORTAL DOS GRAMADOS   GUARULHOS   SP"} ];
 
         // ... Os outros dados seriam listados aqui
-    ];
+   
 
     function buscar() {
         const busca = document.getElementById('inputSelb').value.trim().toUpperCase();
