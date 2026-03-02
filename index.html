@@ -82,11 +82,4 @@
 
 </body>
 </html>
-// Ler SELB pelo QRCode
-const params = new URLSearchParams(window.location.search);
-const selbQR = params.get("selb");
 
-if (selbQR) {
-document.getElementById('inputSelb').value = selbQR;
-buscar();
-}
